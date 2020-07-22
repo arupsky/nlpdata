@@ -73,9 +73,11 @@ for article in root.iter('article'):
 
     # print(jsonStr)
     
-    with open('data1.json', 'a', encoding='utf-8') as f:
-        json.dump(jsonStr, f, ensure_ascii=False, sort_keys = True, indent=4)
+    with open('data2.json', 'a', encoding='utf-8') as f:
+        # f.write(jsonStr, f, ensure_ascii=False, indent=4)
+        f.write(jsonStr)
 
+    f.close()
     #df = pd.DataFrame(result)
     #df.to_csv('file2.csv', index=False, header=False)
 
