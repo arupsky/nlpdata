@@ -1,0 +1,19 @@
+<Reviews>
+<Review rid="1004293">
+    <sentences>
+        <sentence id="1004293:0">
+            <text>1 Judging from previous posts this used to be a good place, but not any longer.</text>
+            <Opinions>
+                <Opinion target="place" category="RESTAURANT#GENERAL" polarity="negative" from="51" to="56"/>
+            </Opinions>
+        </sentence>
+        <sentence id="1004293:1">
+            <text>3 The food here is rather good, but only if you like to wait for it.</text>
+            <Opinions>
+                <Opinion target="food" category="FOOD#QUALITY" polarity="positive" from="4" to="8"/>
+                <Opinion target="NULL" category="SERVICE#GENERAL" polarity="negative" from="0" to="0"/>
+            </Opinions>
+        </sentence>
+    </sentences>
+</Review>
+</Reviews>
